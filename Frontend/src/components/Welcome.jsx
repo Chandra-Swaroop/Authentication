@@ -1,7 +1,7 @@
 
 export default function Welcome() {
   return (
-     <div className="d-flex justify-content-center align-items-center mt-4">
+     <div className="vh-100 w-100 d-flex justify-content-center align-items-center">
       <h1>Register or Login</h1>
     </div>
   );

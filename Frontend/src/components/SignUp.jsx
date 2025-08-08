@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import axios from 'axios';
-import { BASE_URL } from '../config/apiConfig';
+import { BASE_URL } from './../config/apiconfig';
 
 export default function SignUp() {
   const [name, setName] = useState('');
@@ -27,7 +27,7 @@ export default function SignUp() {
   };
 
   return (
-    <div className="vh-100 d-flex justify-content-center align-items-center">
+    <div className=" vh-100 w-100 d-flex justify-content-center align-items-center">
       <form onSubmit={handleSignUp} className="w-100 " style={{ maxWidth: '400px' }}>
         <h2 className="text-center mb-4">Sign Up</h2>
 

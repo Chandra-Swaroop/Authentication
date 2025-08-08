@@ -4,6 +4,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
+    <div className='w-100 vh-100'>
+  
       <Router>
       <nav className="navbar navbar-expand-lg navbar-dark bg-primary fixed-top px-4">
         <div className="container-fluid">
@@ -15,6 +17,8 @@ function App() {
       </nav>
         <AppRoutes />
     </Router>
+        
+    </div>
   );
 }
 
